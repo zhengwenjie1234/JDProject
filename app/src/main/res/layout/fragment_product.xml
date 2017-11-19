@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_above="@id/ll">
+
+       <com.youth.banner.Banner
+           android:id="@+id/banner"
+           android:layout_width="match_parent"
+           android:layout_height="300dp"></com.youth.banner.Banner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/tvTitle"/>
+
+        <TextView
+            android:id="@+id/subhead"
+            android:paddingTop="10dp"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorRed" />
+
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorRed" />
+    </LinearLayout>
+
+</LinearLayout>
